@@ -25,7 +25,7 @@
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
-  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
+  <project path="bionic" name="apolkosnik/android_bionic" groups="pdk" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" />
@@ -193,6 +193,7 @@
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" />
   <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" />
   <project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" />
@@ -495,9 +496,10 @@
   <project path="vendor/cm" name="tonyp/android_vendor_cm" revision="cm-11.0-tonyp" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
-  <project path="device/lge/p990" name="tonyp/tonyp_device_lge_p990" revision="cm-11.0" />
+  <project path="device/lge/p999" name="apolkosnik/android_device_lge_p999" revision="kk4.4" />
   <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" revision="cm-10.2-bcmdhd" />
-  <!--<project path="kernel/lge/star" name="tonyp/private-penguin-party" remote="private" revision="exp" />-->
+  
+  <project name="apolkosnik/lge-kernel-star" path="kernel/lge/star" revision="cm-10.1" />
 
   <project path="vendor/google" name="tonyp/android_vendor_google" revision="cm-11.0" />
 
